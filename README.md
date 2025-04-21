@@ -1,35 +1,3 @@
-Documentação do Sistema
-SUMÁRIO
-
-Dados do Cliente 2
-
-Equipe de Desenvolvimento 3
-
-1. Introdução 4
-
-2. Objetivo 5
-
-3. Escopo 6
-
-4. Backlogs do Produto 7
-
-5. Cronograma 8
-
-6. Materiais e Métodos 9
-
-7. Resultados 10
-
-8. Conclusão 11
-
-9. Homologação do MVP junto ao cliente 12
-
-10. Divulgação 13
-
-11. Carta de Apresentação 15
-
-12. Carta de Autorização 16
-
-13. Relato individual do processo 18
 
 
 📘 Documentação do Sistema
