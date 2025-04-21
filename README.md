@@ -1,4 +1,31 @@
+                                                                   Documentação do Sistema
+                                                                          SUMÁRIO
 
+#1. Introdução 
+
+2. Objetivo 5
+
+3. Escopo 6
+
+4. Backlogs do Produto 7
+
+5. Cronograma 8
+
+6. Materiais e Métodos 9
+
+7. Resultados 10
+
+8. Conclusão 11
+
+9. Homologação do MVP junto ao cliente 12
+
+10. Divulgação 13
+
+11. Carta de Apresentação 15
+
+12. Carta de Autorização 16
+
+13. Relato individual do processo 18
 
 📘 Documentação do Sistema
 Este repositório contém a documentação completa do projeto desenvolvido pelos alunos do Centro Universitário Unimetrocamp como parte da disciplina orientada pelo professor Kesede Rodrigues Julio. O projeto segue a metodologia ágil Scrum, com foco em resolução de problemas reais enfrentados por clientes parceiros.
@@ -35,7 +62,7 @@ Nome do professor orientador:
 
 [Kesede Rodrigues Julio]
 
-🧭 Introdução:
+#🧭 Introdução:
 
 Introdução: O projeto $martMoney foi idealizado para solucionar um problema recorrente enfrentado por grande parte da população: a dificuldade em organizar e planejar suas finanças, além da falta de orientação sobre investimentos. A cliente, Elaine Roberta de Oliveira Teixeira, demonstrou a necessidade de uma plataforma intuitiva e acessível que auxilie tanto no controle financeiro quanto na introdução ao mundo dos investimentos.
 
