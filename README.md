@@ -1,158 +1,138 @@
-                                                                   Documentação do Sistema
-                                                                          SUMÁRIO
+# 💸 $martMoney
 
-#1. Introdução 
+## 📘 Documentação do Sistema
 
-2. Objetivo 5
+Este repositório contém a documentação completa do projeto desenvolvido pelos alunos do Centro Universitário Unimetrocamp como parte da disciplina **Programação Orientada a Objetos em Java**, sob orientação do professor **Kesede Rodrigues Julio**. O projeto adota a metodologia ágil **Scrum** e visa resolver problemas reais enfrentados por clientes parceiros.
 
-3. Escopo 6
+---
 
-4. Backlogs do Produto 7
+## 📌 Visão Geral
 
-5. Cronograma 8
+O sistema foi desenvolvido a partir de uma demanda apresentada pela cliente **Elaine Roberta de Oliveira Teixeira**, com o objetivo de auxiliar no controle financeiro pessoal e na compreensão básica sobre investimentos. A equipe propôs uma solução prática e intuitiva por meio de um aplicativo multiplataforma, detalhado nas seções abaixo.
 
-6. Materiais e Métodos 9
+---
 
-7. Resultados 10
+## 🧑‍💼 Dados do Cliente
 
-8. Conclusão 11
+- **Título do Projeto:** $martMoney – Plataforma de Controle Financeiro e Investimentos  
+- **Cliente:** Elaine Roberta de Oliveira Teixeira  
+- **CPF:** 314.058.468-79  
+- **Contato:** elaine.r.o.teixeira@hotmail.com  
 
-9. Homologação do MVP junto ao cliente 12
+---
 
-10. Divulgação 13
+## 👩‍💻 Equipe de Desenvolvimento
 
-11. Carta de Apresentação 15
+| Nome                       | Curso                            | Disciplina                                 |
+|---------------------------|----------------------------------|--------------------------------------------|
+| Nicolas Anderson Calá     | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java |
+| Sabrina Moreno Paes       | Ciência da Computação            | Programação Orientada a Objetos em Java    |
+| Gustavo Andrade Magalhães | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java |
+| Zahira de Oliveira Silva  | Ciência da Computação            | Programação Orientada a Objetos em Java    |
+| Thamara Oliveira da Silva | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java |
 
-12. Carta de Autorização 16
+**Professor Orientador:** Kesede Rodrigues Julio
 
-13. Relato individual do processo 18
+---
 
-📘 Documentação do Sistema
-Este repositório contém a documentação completa do projeto desenvolvido pelos alunos do Centro Universitário Unimetrocamp como parte da disciplina orientada pelo professor Kesede Rodrigues Julio. O projeto segue a metodologia ágil Scrum, com foco em resolução de problemas reais enfrentados por clientes parceiros.
+## 🧭 Introdução
 
-📌 Visão Geral
-O sistema foi concebido para atender a uma demanda específica apresentada por um cliente real. A partir de reuniões e validações com o cliente, a equipe identificou o problema central, propôs soluções e estabeleceu os limites de desenvolvimento do projeto. A solução foi documentada em diferentes etapas, conforme descritas abaixo.
+O projeto **$martMoney** busca oferecer uma solução acessível para pessoas que têm dificuldade em organizar suas finanças e entender conceitos básicos de investimento. A proposta consiste em desenvolver um aplicativo que permita o controle financeiro pessoal, categorização de gastos, simulação de investimentos e fornecimento de dicas personalizadas.
 
-🧑‍💼 Dados do Cliente
-Título do Projeto: [$martMoney]
+Desenvolvido com **React Native** no frontend e **Java** no backend, o sistema será multiplataforma e intuitivo, promovendo autonomia e educação financeira para seus usuários.
 
-Cliente: [Elaine Roberta de Oliveira Teixeira]
+---
 
-CNPJ/CPF: [314058468-79]
+## 🎯 Objetivo
 
-Contato: [elaine.r.o.teixeira@hotmail.com]
+Criar uma plataforma digital que ajude os usuários a:
 
-👩‍💻 Equipe de Desenvolvimento
-A equipe é composta por alunos da graduação, com a orientação do professor responsável. A documentação registra:
+- Organizar receitas e despesas
+- Acompanhar seus gastos de forma visual e categorizada
+- Simular rendimentos de investimentos básicos
+- Receber sugestões de melhoria com base em seus hábitos
 
-Nome completo dos integrantes:
+---
 
-[Nicolas Anderson Calá] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
+## 🧩 Escopo
 
-[Sabrina Moreno Paes] [Ciência da computação] [Programação Orientada a Objetos em Java]
+### Funcionalidades do MVP:
 
-[Gustavo Andrade Magalhães] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
+- Cadastro de receitas e despesas com categorias
+- Relatórios visuais de gastos
+- Simulação de investimentos básicos (Tesouro Direto, CDBs, etc.)
+- Notificações e lembretes sobre prazos e metas financeiras
 
-[Zahira de Oliveira Silva] [Ciência da Computação] [Programação Orientada a Objetos em Java]
+### Fora do escopo (nesta etapa):
 
-[Thamara Oliveira da Silva] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
+- Integração bancária via Open Finance
+- Suporte a criptomoedas
+- Recursos de inteligência artificial
 
+---
 
-Nome do professor orientador:
+## 📋 Backlog do Produto
 
-[Kesede Rodrigues Julio]
+1. **Cadastro de Usuário**  
+   Autenticação com segurança e gerenciamento de sessão.
 
-#🧭 Introdução:
+2. **Registro de Entradas e Saídas**  
+   Interface para registrar despesas e receitas com categorias personalizáveis.
 
-Introdução: O projeto $martMoney foi idealizado para solucionar um problema recorrente enfrentado por grande parte da população: a dificuldade em organizar e planejar suas finanças, além da falta de orientação sobre investimentos. A cliente, Elaine Roberta de Oliveira Teixeira, demonstrou a necessidade de uma plataforma intuitiva e acessível que auxilie tanto no controle financeiro quanto na introdução ao mundo dos investimentos.
+3. **Relatórios Visuais**  
+   Gráficos de pizza e barra que mostram o comportamento financeiro mensal.
 
-Como resposta a essa demanda, propomos o desenvolvimento de um aplicativo multiplataforma, que será construído com React Native para o frontend e Java no backend. Através desse sistema, os usuários poderão acompanhar seus gastos, categorizar despesas, simular investimentos e receber sugestões personalizadas com base em seus hábitos financeiros.
+4. **Simulador de Investimentos**  
+   Comparação entre tipos de investimentos e estimativa de rendimento.
 
-A proposta do $martMoney é impactar positivamente a vida do usuário, promovendo mais consciência e autonomia financeira.
+5. **Notificações e Dicas**  
+   Alertas sobre vencimentos e recomendações de boas práticas.
 
-🎯 Objetivo:
+---
 
-Desenvolver uma plataforma que auxilie indivíduos a gerenciar melhor suas finanças pessoais e a compreender o funcionamento de investimentos básicos, proporcionando controle, previsibilidade e crescimento financeiro.
+## ⚙️ Tecnologias Utilizadas
 
-🧩 Escopo:
+- **React Native**: Interface nativa para Android e iOS.
+- **Java**: Backend com APIs REST seguras e eficientes.
+- **Firebase (opcional)**: Autenticação e banco de dados em nuvem para MVPs.
+- **Figma / Draw.io**: Protótipos de telas e modelagem UML (Casos de Uso, MER, etc).
 
-O sistema contemplará os seguintes requisitos principais:
+---
 
-Gestão de Finanças Pessoais: cadastro de despesas e receitas, com categorização automática;
+## 🗓️ Cronograma (Sprint)
 
-Simulação e Acompanhamento de Investimentos: interface simples para usuários entenderem e compararem diferentes tipos de aplicações financeiras.
+| Fase                          | Início     | Término    |
+|------------------------------|------------|------------|
+| Planejamento do Projeto      | [xx/xx]    | [xx/xx]    |
+| Levantamento de Requisitos   | [xx/xx]    | [xx/xx]    |
+| Sprint 1 – Protótipo inicial | [xx/xx]    | [xx/xx]    |
+| Sprint 2 – MVP funcional     | [xx/xx]    | [xx/xx]    |
+| Testes e Homologação         | [xx/xx]    | [xx/xx]    |
+| Divulgação e Apresentação    | [xx/xx]    | [xx/xx]    |
 
-Fora do escopo: Integração direta com bancos via Open Finance, suporte a criptomoedas, e análises avançadas com inteligência artificial (neste primeiro MVP).
+> _Datas devem ser preenchidas conforme planejamento no Jira._
 
-📋 Backlogs do Produto 
-1. Cadastro de Usuário
-Permite criar uma conta com autenticação segura.
+---
 
-2. Registro de Entradas e Saídas
-Interface para inserir receitas e despesas, com categorias definidas.
+## 📢 Divulgação
 
-3. Relatórios Visuais
-Gráficos de pizza e barras mostrando a distribuição dos gastos mensais.
+- **LinkedIn do Projeto:** [inserir link]  
+  Página com resumo do projeto, atualizações, equipe e orientador.
 
-4. Simulador de Investimentos
-Ferramenta simples para entender o rendimento de CDBs, Tesouro Direto e outros investimentos básicos.
+- **Vídeo de Apresentação:** [inserir link]  
+  Demonstração prática do funcionamento do aplicativo.
 
-5. Notificações e Dicas Financeiras
-Alertas sobre vencimento de contas e dicas para melhorar o uso do dinheiro.
+- **Repositório na Organization GitHub:** [inserir link]
 
-⚙️ Tecnologias Utilizadas:
+---
 
-React Native: Framework para construção do frontend, garantindo um app responsivo e nativo tanto para Android quanto iOS.
+## 🧾 Observações Finais
 
-Java: Utilizado no backend para construção de APIs REST, com segurança e performance.
+- ⚠️ As instruções internas foram removidas conforme orientação.
+- 🔗 Este `README.md` deve ser compartilhado via link raw com o orientador.
+- 📅 Todas as entregas devem respeitar o cronograma oficial definido pela disciplina.
 
-Firebase (opcional): Para autenticação e base de dados inicial (em caso de MVP rápido).
+---
 
-Figma / Draw.io: Ferramentas de design e modelagem visual do sistema.
+> _Projeto acadêmico desenvolvido com fins educativos. Todos os dados são fictícios e utilizados para simulação de um ambiente real de desenvolvimento de software._
 
-
-
-Cronograma: Planejamento completo com tarefas quinzenais.
-
-Materiais e Métodos:
-
-Diagramas UML (Casos de Uso, Classes, MER etc.)
-
-Tecnologias utilizadas (linguagens, bibliotecas, ferramentas)
-
-Arquitetura do sistema
-
-Resultados:
-
-Protótipo de telas com descrições funcionais
-
-Trechos relevantes de código com comentários
-
-Conclusão:
-
-Impactos no processo do cliente
-
-Melhorias futuras
-
-Homologação do MVP:
-
-Reunião com o cliente
-
-Fotos e lista de presença
-
-Divulgação:
-
-Página do projeto no LinkedIn
-
-Vídeo de apresentação
-
-Registros fotográficos do seminário
-
-Carta de Apresentação e Autorização: Formalização do vínculo acadêmico com o cliente.
-
-Relato Individual: Reflexão pessoal de cada aluno sobre o processo desenvolvido.
-
-🧾 Observações Finais
-⚠️ Importante: Todas as instruções internas (em vermelho no documento original) devem ser apagadas na versão final.
-🔗 O documento deve ser compartilhado com o orientador via link raw do GitHub.
-📅 O preenchimento do conteúdo deve respeitar as datas estabelecidas no calendário oficial do curso.
