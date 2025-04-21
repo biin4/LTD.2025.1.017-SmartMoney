@@ -19,13 +19,18 @@ A equipe é composta por alunos da graduação, com a orientação do professor 
 Nome completo dos integrantes:
 
 [Nicolas Anderson Calá] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
+
 [Sabrina Moreno Paes] [Ciência da computação] [Programação Orientada a Objetos em Java]
+
 [Gustavo Andrade Magalhães] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
+
 [Zahira de Oliveira Silva] [Ciência da Computação] [Programação Orientada a Objetos em Java]
+
 [Thamara Oliveira da Silva] [Análise e Desenvolvimento de Sistemas] [Programação Orientada a Objetos em Java]
 
 
 Nome do professor orientador:
+
 [Kesede Rodrigues Julio]
 
 🧭 Introdução:
