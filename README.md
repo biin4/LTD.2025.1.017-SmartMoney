@@ -24,12 +24,12 @@ O sistema foi desenvolvido a partir de uma demanda apresentada pela cliente **El
 ## 👩‍💻 Equipe de Desenvolvimento
 
 | Nome                       | Curso                            | Disciplina                                 |
-|---------------------------|----------------------------------|--------------------------------------------|
-| Nicolas Anderson Calá     | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java |
-| Sabrina Moreno Paes       | Ciência da Computação            | Programação Orientada a Objetos em Java    |
-| Gustavo Andrade Magalhães | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java |
-| Zahira de Oliveira Silva  | Ciência da Computação            | Programação Orientada a Objetos em Java    |
-| Thamara Oliveira da Silva | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java |
+|----------------------------|---------------------------------|--------------------------------------------|
+| Nicolas Anderson Calá       | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java  |
+| Sabrina Moreno Paes        | Ciência da Computação            | Programação Orientada a Objetos em Java    |
+| Gustavo Andrade Magalhães  | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java  |
+| Zahira de Oliveira Silva   | Ciência da Computação            | Programação Orientada a Objetos em Java    |
+| Thamara Oliveira da Silva  | Análise e Desenvolvimento de Sistemas | Programação Orientada a Objetos em Java  |
 
 **Professor Orientador:** Kesede Rodrigues Julio
 
@@ -103,12 +103,12 @@ Criar uma plataforma digital que ajude os usuários a:
 
 | Fase                          | Início     | Término    |
 |------------------------------|------------|------------|
-| Planejamento do Projeto      | [xx/xx]    | [xx/xx]    |
-| Levantamento de Requisitos   | [xx/xx]    | [xx/xx]    |
-| Sprint 1 – Protótipo inicial | [xx/xx]    | [xx/xx]    |
-| Sprint 2 – MVP funcional     | [xx/xx]    | [xx/xx]    |
-| Testes e Homologação         | [xx/xx]    | [xx/xx]    |
-| Divulgação e Apresentação    | [xx/xx]    | [xx/xx]    |
+| Planejamento do Projeto       | [xx/xx]    | [xx/xx]    |
+| Levantamento de Requisitos    | [xx/xx]    | [xx/xx]    |
+| Sprint 1 – Protótipo inicial  | [xx/xx]    | [xx/xx]    |
+| Sprint 2 – MVP funcional      | [xx/xx]    | [xx/xx]    |
+| Testes e Homologação          | [xx/xx]    | [xx/xx]    |
+| Divulgação e Apresentação     | [xx/xx]    | [xx/xx]    |
 
 > _Datas devem ser preenchidas conforme planejamento no Jira._
 
@@ -117,11 +117,7 @@ Criar uma plataforma digital que ajude os usuários a:
 ## 📢 Divulgação
 
 - **LinkedIn do Projeto:** [inserir link]  
-  Página com resumo do projeto, atualizações, equipe e orientador.
-
 - **Vídeo de Apresentação:** [inserir link]  
-  Demonstração prática do funcionamento do aplicativo.
-
 - **Repositório na Organization GitHub:** [inserir link]
 
 ---
@@ -135,4 +131,3 @@ Criar uma plataforma digital que ajude os usuários a:
 ---
 
 > _Projeto acadêmico desenvolvido com fins educativos. Todos os dados são fictícios e utilizados para simulação de um ambiente real de desenvolvimento de software._
-
