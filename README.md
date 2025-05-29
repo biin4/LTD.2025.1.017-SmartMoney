@@ -56,14 +56,14 @@ Criar uma plataforma digital que ajude os usuários a:
 
 ## 🧩 Escopo
 
-### Funcionalidades do MVP:
+### Funcionalidades do App:
 
 - Cadastro de receitas e despesas com categorias
 - Relatórios visuais de gastos
 - Simulação de investimentos básicos (Tesouro Direto, CDBs, etc.)
 - Notificações e lembretes sobre prazos e metas financeiras
 
-### Fora do escopo (nesta etapa):
+### Fora do escopo:
 
 - Integração bancária via Open Finance
 - Suporte a criptomoedas
@@ -82,10 +82,7 @@ Criar uma plataforma digital que ajude os usuários a:
 3. **Relatórios Visuais**  
    Gráficos de pizza e barra que mostram o comportamento financeiro mensal.
 
-4. **Simulador de Investimentos**  
-   Comparação entre tipos de investimentos e estimativa de rendimento.
-
-5. **Notificações e Dicas**  
+4. **Notificações e Dicas**  
    Alertas sobre vencimentos e recomendações de boas práticas.
 
 ---
@@ -93,40 +90,15 @@ Criar uma plataforma digital que ajude os usuários a:
 ## ⚙️ Tecnologias Utilizadas
 
 - **React Native**: Interface nativa para Android e iOS.
-- **Java**: Backend com APIs REST seguras e eficientes.
-- **Firebase (opcional)**: Autenticação e banco de dados em nuvem para MVPs.
-- **Figma / Draw.io**: Protótipos de telas e modelagem UML (Casos de Uso, MER, etc).
-
----
-
-## 🗓️ Cronograma (Sprint)
-
-| Fase                          | Início     | Término    |
-|------------------------------|------------|------------|
-| Planejamento do Projeto       | [xx/xx]    | [xx/xx]    |
-| Levantamento de Requisitos    | [xx/xx]    | [xx/xx]    |
-| Sprint 1 – Protótipo inicial  | [xx/xx]    | [xx/xx]    |
-| Sprint 2 – MVP funcional      | [xx/xx]    | [xx/xx]    |
-| Testes e Homologação          | [xx/xx]    | [xx/xx]    |
-| Divulgação e Apresentação     | [xx/xx]    | [xx/xx]    |
-
-> _Datas devem ser preenchidas conforme planejamento no Jira._
+- **Firebase**: Autenticação e banco de dados em nuvem.
+- **Figma**: Protótipos de telas.
 
 ---
 
 ## 📢 Divulgação
 
-- **LinkedIn do Projeto:** [inserir link]  
+- **LinkedIn do Projeto:** https://www.linkedin.com/in/gustavo-andrade-145115259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app  
 - **Vídeo de Apresentação:** [inserir link]  
-- **Repositório na Organization GitHub:** [inserir link]
-
----
-
-## 🧾 Observações Finais
-
-- ⚠️ As instruções internas foram removidas conforme orientação.
-- 🔗 Este `README.md` deve ser compartilhado via link raw com o orientador.
-- 📅 Todas as entregas devem respeitar o cronograma oficial definido pela disciplina.
 
 ---
 
