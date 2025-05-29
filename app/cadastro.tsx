@@ -9,6 +9,7 @@ import {
 import { useRouter } from 'expo-router';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { auth } from './firebaseConfig';
+import Toast from 'react-native-toast-message';
 
 export default function Cadastro() {
   const [email, setEmail] = useState('');
@@ -19,10 +20,15 @@ export default function Cadastro() {
   const cadastrar = async () => {
     try {
       await createUserWithEmailAndPassword(auth, email, senha);
-      Alert.alert('Sucesso', 'Usuário criado com sucesso!');
-      router.replace('/home'); // redireciona para a tela Home
+      //Alert.alert('Sucesso', 'Usuário criado com sucesso!');
+      Toast.show({
+            type: 'success',
+            text1: 'Bem vindo!',
+            text2: 'Cadastro realizado com sucesso.'
+          });
+      router.replace('/tabs/home'); // redireciona para a tela Home
     } catch (error: any) {
-      Alert.alert('Erro ao cadastrar', error.message);
+      Alert.alert('Erro', 'Verifique se os campos foram preenchidos corretamente.');
     }
   };
 

@@ -1,10 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, FlatList, StyleSheet, TextInput, Button, Alert } from 'react-native';
+import { View, Text, FlatList, StyleSheet, TextInput, Button, Alert, TouchableOpacity } from 'react-native';
 import { collection, onSnapshot, addDoc, Timestamp, query, where } from 'firebase/firestore';
-import { db, auth } from './firebaseConfig';
+import { db, auth } from '../firebaseConfig';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { useRouter } from 'expo-router';
-
+import {
+  responsiveWidth as rw,
+  responsiveHeight as rh,
+  responsiveFontSize as rf,
+} from 'react-native-responsive-dimensions';
+import { red } from 'react-native-reanimated/lib/typescript/Colors';
 
 
 interface Transacao {
@@ -146,9 +151,6 @@ const HomeScreen: React.FC = () => {
           </View>
         )}
       />
-
-      <Button title="Sair" onPress={sair} color="#777" />
-
     </View>
   );
 };
@@ -203,4 +205,10 @@ const styles = StyleSheet.create({
     fontSize: 12,
     color: 'gray',
   },
+  buttonText: {
+      color: '#fff',
+      fontSize: rf(2.2),
+      fontWeight: 'bold',
+    },
+  
 });

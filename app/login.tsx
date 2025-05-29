@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Toast from 'react-native-toast-message';
 import {
   View,
   Text,
@@ -29,10 +30,20 @@ export default function Login() {
   const logar = async () => {
     try {
       await signInWithEmailAndPassword(auth, email, senha);
-      Alert.alert('Bem-vindo!', 'Login realizado com sucesso!');
-      router.replace('/home'); // Redireciona para a tela principal
+     // Alert.alert('Bem-vindo!', 'Login realizado com sucesso!');
+      Toast.show({
+      type: 'success',
+      text1: 'Bem vindo!',
+      text2: 'Login realizado com sucesso.'
+    });
+      router.replace('/tabs/home'); // Redireciona para a tela principal
     } catch (error: any) {
-      Alert.alert('Erro', error.message);
+      //Alert.alert('Erro', 'E-mail ou senha inválido.');
+      Toast.show({
+      type: 'error',
+      text1: 'Erro',
+      text2: 'E-mail ou senha inválido.'
+    });
     }
   };
 

@@ -36,21 +36,13 @@ export default function Home() {
 
   return (
     <>
-      <StatusBar
-        barStyle={theme === 'dark' ? 'light-content' : 'dark-content'}
-        backgroundColor={theme === 'dark' ? '#000' : '#f7f7f7'}
-      />
-
-      <View style={styles.logoContainer}>
+      <View style={styles.container}>
         <Image
-          source={require('./assets/logo.jpeg')}
+          source={require('./assets/logo.png')}
           style={styles.logo}
           resizeMode="contain"
         />
-      </View>
-
-      <View style={styles.container}>
-        <Text style={styles.title}>Educação Financeira e ajuda em Investimentos</Text>
+        <Text style={styles.title}>$martMoney: Seu app de controle financeiro!</Text>
 
         <TouchableOpacity style={styles.button} onPress={Irparalogin}>
           <Text style={styles.buttonText}>Vamos começar</Text>
@@ -73,16 +65,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  logoContainer: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginTop: rh(5),
-    marginBottom: rh(3),
-    backgroundColor: '#201937', // mesmo fundo da tela
-  },
   logo: {
-    width: rw(40),
-    height: rh(20),
+    width: rw(60),
+    height: rh(30),
   },
   title: {
     fontSize: rf(3.5),
